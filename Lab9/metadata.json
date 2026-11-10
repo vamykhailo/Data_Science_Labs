@@ -1,0 +1,26 @@
+{
+  "student": "Михайло Вахнюк",
+  "variant": 5,
+  "class_names": [
+    "beef_tartare",
+    "eggs_benedict",
+    "miso_soup"
+  ],
+  "image_size": [
+    128,
+    128
+  ],
+  "color_mode": "rgb",
+  "interpolation": "bilinear",
+  "input_range": [
+    0,
+    255
+  ],
+  "input_dtype": "float32",
+  "rescaling_inside_model": true,
+  "label_mode": "int",
+  "loss": "SparseCategoricalCrossentropy(from_logits=False)",
+  "seed": 42,
+  "selected_model": "dropout03",
+  "parameters": 23779
+}

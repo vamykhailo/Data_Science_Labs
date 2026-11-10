@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "fresh_process": true,
+  "rows": 3,
+  "max_absolute_difference": 0.0,
+  "fit_or_adapt_called": false,
+  "predictions": [
+    48.87099838256836,
+    25.11140251159668,
+    41.450340270996094
+  ]
+}

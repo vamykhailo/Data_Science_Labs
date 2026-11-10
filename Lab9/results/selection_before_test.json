@@ -1,0 +1,28 @@
+{
+  "selected": "dropout03",
+  "criterion": "minimum validation loss",
+  "validation_results": [
+    {
+      "model": "base",
+      "dropout": 0.0,
+      "parameters": 23779,
+      "epochs": 22,
+      "best_epoch": 17,
+      "training_seconds": 464.76612569999907,
+      "val_loss": 0.615795373916626,
+      "val_accuracy": 0.7666666507720947
+    },
+    {
+      "model": "dropout03",
+      "dropout": 0.3,
+      "parameters": 23779,
+      "epochs": 30,
+      "best_epoch": 30,
+      "training_seconds": 627.8952917999995,
+      "val_loss": 0.5745136737823486,
+      "val_accuracy": 0.7888888716697693
+    }
+  ],
+  "test_used": false,
+  "initial_trainable_weights_identical": true
+}

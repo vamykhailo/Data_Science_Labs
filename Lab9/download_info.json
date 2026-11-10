@@ -1,0 +1,11 @@
+{
+  "url": "https://data.vision.ee.ethz.ch/cvl/food-101.tar.gz",
+  "retained_classes": [
+    "beef_tartare",
+    "eggs_benedict",
+    "miso_soup"
+  ],
+  "files": 3006,
+  "download_seconds": 260.6329975128174,
+  "method": "official tar.gz streaming; selected files only"
+}

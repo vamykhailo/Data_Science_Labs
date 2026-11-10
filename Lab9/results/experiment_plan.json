@@ -1,0 +1,11 @@
+{
+  "hypothesis": "Dropout 0.3 після GAP зменшить validation loss завдяки регуляризації",
+  "changed_factor": "dropout: 0.0 -> 0.3",
+  "seed": 42,
+  "max_epochs": 30,
+  "patience": 5,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "selection": "minimum validation loss; tie -> base",
+  "test_used": false
+}

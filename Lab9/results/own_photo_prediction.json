@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "photo": "own_photo/beef_tartare.jpg",
+  "known_class": "beef_tartare",
+  "predicted_class": "eggs_benedict",
+  "max_softmax": 0.5104276537895203,
+  "probabilities": {
+    "beef_tartare": 0.44949647784233093,
+    "eggs_benedict": 0.5104276537895203,
+    "miso_soup": 0.04007592424750328
+  }
+}

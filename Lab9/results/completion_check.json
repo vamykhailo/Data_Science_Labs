@@ -1,0 +1,63 @@
+{
+  "notebook_errors": [],
+  "all_code_cells_executed": true,
+  "correct_variant_classes": [
+    "beef_tartare",
+    "eggs_benedict",
+    "miso_soup"
+  ],
+  "split_sizes": {
+    "train": 1800,
+    "val": 450,
+    "test": 750
+  },
+  "cross_split_duplicates": 0,
+  "own_photo_status": "completed",
+  "fully_ready": true,
+  "selected_model": "dropout03",
+  "test_metrics": {
+    "selected": "dropout03",
+    "test_loss": 0.6310988068580627,
+    "test_accuracy": 0.7106666666666667,
+    "macro_f1": 0.704768556734834,
+    "dummy_accuracy": 0.3333333333333333,
+    "dummy_macro_f1": 0.16666666666666666,
+    "test_images": 750,
+    "error_count": 217
+  },
+  "png_files": [
+    "class_examples.png",
+    "confident_errors.png",
+    "confusion_matrix.png",
+    "feature_maps.png",
+    "own_photo_prediction.png",
+    "predictions.png",
+    "training_curves.png"
+  ],
+  "fresh_process_reload": {
+    "passed": true,
+    "fresh_process": true,
+    "fit_called": false,
+    "rows": 3,
+    "max_absolute_difference": 0.0
+  },
+  "figures_visually_inspected": true,
+  "code_cells": 37,
+  "markdown_cells": 40,
+  "markdown_before_each_code": true,
+  "formatting_only_ast_verified": true,
+  "own_photo_prediction": {
+    "status": "completed",
+    "photo": "own_photo/beef_tartare.jpg",
+    "known_class": "beef_tartare",
+    "predicted_class": "eggs_benedict",
+    "max_softmax": 0.5104276537895203,
+    "probabilities": {
+      "beef_tartare": 0.44949647784233093,
+      "eggs_benedict": 0.5104276537895203,
+      "miso_soup": 0.04007592424750328
+    }
+  },
+  "own_photo_figure_visually_inspected": true,
+  "training_rerun_for_photo": false
+}

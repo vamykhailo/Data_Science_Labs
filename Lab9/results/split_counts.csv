@@ -1,0 +1,10 @@
+split,class,count
+train,beef_tartare,600
+train,eggs_benedict,600
+train,miso_soup,600
+val,beef_tartare,150
+val,eggs_benedict,150
+val,miso_soup,150
+test,beef_tartare,250
+test,eggs_benedict,250
+test,miso_soup,250

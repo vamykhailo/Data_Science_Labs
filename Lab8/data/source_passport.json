@@ -1,0 +1,20 @@
+{
+  "name": "Real Estate Valuation",
+  "source_url": "https://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set",
+  "download_url": "https://archive.ics.uci.edu/static/public/477/real%2Bestate%2Bvaluation%2Bdata%2Bset.zip",
+  "creator": "I-Cheng Yeh, Department of Civil Engineering, Tamkang University",
+  "citation": "Yeh, I. (2018). Real Estate Valuation. UCI Machine Learning Repository.",
+  "doi": "10.24432/C5J30W",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "downloaded_at": "2026-11-10T11:54:03.599467+02:00",
+  "file": "Real estate valuation data set.xlsx",
+  "sheet": "工作表1",
+  "rows": 414,
+  "features": 6,
+  "row_meaning": "Окремий історичний запис оцінювання/угоди житла, Сіньдянь, Новий Тайбей, Тайвань",
+  "target": "Y house price of unit area",
+  "target_units": "10 000 NTD / ping",
+  "ping": "1 ping ≈ 3.3 м² за описом UCI",
+  "sha256": "597d72fcc6c0539e6035a033ddb387db48fff3fb1f3c98fee31fe081c64a9059"
+}

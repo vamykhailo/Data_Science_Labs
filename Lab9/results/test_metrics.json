@@ -1,0 +1,10 @@
+{
+  "selected": "dropout03",
+  "test_loss": 0.6310988068580627,
+  "test_accuracy": 0.7106666666666667,
+  "macro_f1": 0.704768556734834,
+  "dummy_accuracy": 0.3333333333333333,
+  "dummy_macro_f1": 0.16666666666666666,
+  "test_images": 750,
+  "error_count": 217
+}

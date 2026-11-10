@@ -1,0 +1,7 @@
+datasets/
+data/
+*.tar.gz
+*.zip
+*.keras
+__pycache__/
+.ipynb_checkpoints/

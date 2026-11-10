@@ -1,0 +1,28 @@
+{
+  "notebook_executed": true,
+  "code_cells": 35,
+  "notebook_errors": [],
+  "embedded_figures": 4,
+  "required_files_present": [
+    "Lab8_Vakhniuk.ipynb",
+    "README.md",
+    "requirements.txt",
+    "metadata.json",
+    "model_comparison.csv",
+    "test_predictions.csv",
+    "largest_errors.csv",
+    "data/source_passport.json",
+    "data/Real estate valuation data set.xlsx",
+    "artifacts/lab8_model.keras",
+    "artifacts/preprocessor.joblib",
+    "figures/train_target.png",
+    "figures/training_loss.png",
+    "figures/actual_vs_predicted.png",
+    "figures/residuals.png"
+  ],
+  "chronological_split": true,
+  "single_change": "width 32 to 64",
+  "test_not_used_for_selection": true,
+  "markdown_cells": 38,
+  "formatting_only_ast_verified": true
+}
