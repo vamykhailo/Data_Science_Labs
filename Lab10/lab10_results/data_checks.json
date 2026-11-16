@@ -1,0 +1,7 @@
+{
+  "readable_images": 3000,
+  "cross_split_hash_duplicates": [],
+  "conflicting_labels_by_hash": [],
+  "split_unchanged_from_lab9": true,
+  "limitation": "SHA-256 не виявляє змінені копії; ідентифікатори груп об’єктів відсутні"
+}

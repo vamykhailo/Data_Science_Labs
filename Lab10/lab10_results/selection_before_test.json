@@ -1,0 +1,29 @@
+{
+  "selected_stage": "fine_tuning",
+  "criterion": "minimum validation loss; tie -> feature_extraction",
+  "test_used": false,
+  "comparison": [
+    {
+      "stage": "feature_extraction",
+      "unfrozen_blocks": "head only",
+      "lr": 0.001,
+      "trainable_params": 3843,
+      "epochs": 10,
+      "best_epoch": 9,
+      "seconds": 1017.0647458000021,
+      "validation_loss": 0.071109838783741,
+      "validation_accuracy": 0.9733333587646484
+    },
+    {
+      "stage": "fine_tuning",
+      "unfrozen_blocks": "block7, top_; BN frozen",
+      "lr": 1e-05,
+      "trainable_params": 1125427,
+      "epochs": 10,
+      "best_epoch": 10,
+      "seconds": 1437.8063618000015,
+      "validation_loss": 0.05491019785404205,
+      "validation_accuracy": 0.9755555391311646
+    }
+  ]
+}

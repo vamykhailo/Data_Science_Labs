@@ -1,0 +1,13 @@
+{
+  "criterion": "minimum validation loss; tie -> feature_extraction",
+  "head_lr": 0.001,
+  "fine_lr": 1e-05,
+  "head_epochs": 10,
+  "fine_epochs": 10,
+  "unfreeze_prefixes": [
+    "block7",
+    "top_"
+  ],
+  "batch_normalization_frozen": true,
+  "test_used": false
+}

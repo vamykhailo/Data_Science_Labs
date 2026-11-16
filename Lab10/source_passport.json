@@ -1,0 +1,22 @@
+{
+  "dataset": "Food-101",
+  "authors": "Bossard, Guillaumin, Van Gool (ECCV 2014)",
+  "url": "https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/",
+  "licensing_source": "https://huggingface.co/datasets/ethz/food101/blob/main/README.md",
+  "license": "Foodspotting image-owner rights; no blanket CC/MIT license claimed; scientific fair use per dataset notice",
+  "class_names": [
+    "beef_tartare",
+    "eggs_benedict",
+    "miso_soup"
+  ],
+  "student_number": 5,
+  "food101_indices": [
+    4,
+    34,
+    64
+  ],
+  "split_source": "Lab9/manifest.json",
+  "split_source_sha256": "40fb6c52bc3a37e9f7c94526044d73efd53dbdea12bb95a67f930b366e2e19cf",
+  "split_unchanged": true,
+  "related_object_ids_available": false
+}

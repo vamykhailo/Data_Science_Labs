@@ -1,0 +1,105 @@
+{
+  "tensorflow": "2.21.0",
+  "keras": "3.15.1",
+  "versions": {
+    "tensorflow": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "scikit-learn": "1.9.1",
+    "Pillow": "12.3.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0"
+  },
+  "seed": 42,
+  "class_names": [
+    "beef_tartare",
+    "eggs_benedict",
+    "miso_soup"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "pixel_range": [
+    0,
+    255
+  ],
+  "color_mode": "rgb",
+  "interpolation": "bilinear",
+  "backbone": "EfficientNetB0",
+  "weights": "imagenet",
+  "include_top": false,
+  "external_rescaling": false,
+  "base_training_flag": false,
+  "batch_normalization_frozen": true,
+  "selected_stage": "fine_tuning",
+  "comparison": [
+    {
+      "stage": "feature_extraction",
+      "unfrozen_blocks": "head only",
+      "lr": 0.001,
+      "trainable_params": 3843,
+      "epochs": 10,
+      "best_epoch": 9,
+      "seconds": 1017.0647458000021,
+      "validation_loss": 0.071109838783741,
+      "validation_accuracy": 0.9733333587646484
+    },
+    {
+      "stage": "fine_tuning",
+      "unfrozen_blocks": "block7, top_; BN frozen",
+      "lr": 1e-05,
+      "trainable_params": 1125427,
+      "epochs": 10,
+      "best_epoch": 10,
+      "seconds": 1437.8063618000015,
+      "validation_loss": 0.05491019785404205,
+      "validation_accuracy": 0.9755555391311646
+    }
+  ],
+  "test_metrics": {
+    "selected_stage": "fine_tuning",
+    "test_loss": 0.05254223197698593,
+    "test_accuracy": 0.9773333333333334,
+    "macro_f1": 0.9773109459910424,
+    "test_count": 750,
+    "errors": 17
+  },
+  "unfrozen_layers": [
+    "block7a_expand_conv",
+    "block7a_dwconv",
+    "block7a_se_reduce",
+    "block7a_se_expand",
+    "block7a_project_conv",
+    "top_conv"
+  ],
+  "data_source": {
+    "dataset": "Food-101",
+    "authors": "Bossard, Guillaumin, Van Gool (ECCV 2014)",
+    "url": "https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/",
+    "licensing_source": "https://huggingface.co/datasets/ethz/food101/blob/main/README.md",
+    "license": "Foodspotting image-owner rights; no blanket CC/MIT license claimed; scientific fair use per dataset notice",
+    "class_names": [
+      "beef_tartare",
+      "eggs_benedict",
+      "miso_soup"
+    ],
+    "student_number": 5,
+    "food101_indices": [
+      4,
+      34,
+      64
+    ],
+    "split_source": "Lab9/manifest.json",
+    "split_source_sha256": "40fb6c52bc3a37e9f7c94526044d73efd53dbdea12bb95a67f930b366e2e19cf",
+    "split_unchanged": true,
+    "related_object_ids_available": false
+  },
+  "split_manifest": "manifest.json",
+  "head_base_weights_unchanged": true,
+  "fine_frozen_weights_unchanged": true,
+  "fine_allowed_weights_changed": true
+}

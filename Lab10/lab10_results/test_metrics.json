@@ -1,0 +1,8 @@
+{
+  "selected_stage": "fine_tuning",
+  "test_loss": 0.05254223197698593,
+  "test_accuracy": 0.9773333333333334,
+  "macro_f1": 0.9773109459910424,
+  "test_count": 750,
+  "errors": 17
+}

@@ -1,0 +1,7 @@
+path,true_class,predicted_class,max_softmax,p_beef_tartare,p_eggs_benedict,p_miso_soup
+beef_tartare/485390.jpg,beef_tartare,eggs_benedict,0.9786985,0.0212945,0.9786985,7.0219007e-06
+beef_tartare/3568980.jpg,beef_tartare,eggs_benedict,0.9664492,0.033487607,0.9664492,6.3221e-05
+eggs_benedict/3315572.jpg,eggs_benedict,beef_tartare,0.9475406,0.9475406,0.045010377,0.0074490714
+beef_tartare/1616444.jpg,beef_tartare,eggs_benedict,0.9172875,0.04565691,0.9172875,0.037055604
+beef_tartare/3553004.jpg,beef_tartare,eggs_benedict,0.88899344,0.110952444,0.88899344,5.4116088e-05
+beef_tartare/3508685.jpg,beef_tartare,eggs_benedict,0.8028943,0.18984984,0.8028943,0.007255883
